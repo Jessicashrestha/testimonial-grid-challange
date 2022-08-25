@@ -1,0 +1,87 @@
+@import url("https://fonts.google.com/specimen/Barlow+Semi+Condensed");
+
+:root {
+  --Moderate-violet: hsl(263, 55%, 52%);
+  --Very-dark-grayish-blue: hsl(217, 19%, 35%);
+  --Very-dark-blackish-blue: hsl(219, 29%, 14%);
+  --text-color: hsl(0, 0%, 100%);
+  --Light-gray: hsl(0, 0%, 81%);
+  --Light-grayish-blue: hsl(210, 46%, 95%)
+  --Family: "Barlow Semi Condensed";
+}
+body{
+    background-color: #edf2f8;
+}
+.testi-avatar img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 2px solid white;
+}
+.name{
+    margin: 0;
+    opacity: 75%;
+}
+.post{
+    margin: 0;
+    opacity: 50%;
+}
+.testi-profile{
+    margin-left: 15px;
+    color: var(--text-color);
+    font-size: 13px;
+}
+.testi-1{
+    background-color: var(--Moderate-violet);
+    background-image: url(./images/bg-pattern-quotation.svg);
+    background-repeat: no-repeat;
+    background-position: 85% 0;
+    border-radius: 7px;
+    padding: 25px;
+    margin-bottom: 20px;
+}
+.testi-title{
+    font-size: 22px;
+    color: var(--text-color);
+    margin-top: 10px;
+    font-weight: 500;
+}
+.testi-text{
+    font-size: 13px;
+    color : var(--text-color);
+    opacity: 50%;
+    padding-right: 30px;
+}
+.testi-2{
+    background-color: var(--Very-dark-grayish-blue);
+    border-radius: 7px;
+    padding: 25px;
+    margin-bottom: 20px;
+}
+.testi-profile-3{
+    color: var(--Very-dark-blackish-blue);
+  
+}
+.testi-3{
+    background-color: var(--text-color);
+    border-radius: 7px;
+    height: 100%;
+    padding: 25px;
+}
+.testi-title-3{
+    color:var(--Very-dark-grayish-blue);
+}
+.testi-text-3{
+    color: var(--Very-dark-grayish-blue); 
+}
+.testi-4{
+    background-color: var(--Very-dark-blackish-blue);
+    border-radius: 7px;
+    padding: 25px;
+}
+.testi-title-4{
+    color:var(--text-color);
+}
+.testi-text-4{
+    color: var(--text-color);
+}
